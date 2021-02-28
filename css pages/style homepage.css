@@ -1,0 +1,864 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:700|Kelly+Slab|Strait|Turret+Road:700&display=swap');
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;
+/*background-color: #622F99;*/
+scroll-behavior: smooth;
+
+
+
+}
+
+
+
+::-webkit-scrollbar{ width: 0.4%; }
+::-webkit-scrollbar-track{background: rgba(177, 218, 30, 0.288);}
+::-webkit-scrollbar-thumb{background: linear-gradient(180deg, #1d2951,#39ff14); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover{background: #39ff14(0, 0, 0, 0.719)}
+::-webkit-scrollbar-track-piece{background: #1d2951}
+
+	/* --------------------------------------------------- particles.js container 
+	#particles-js{  width: 99.978%; height: 100%; background-color: #1d2951; background-image: url(""); background-repeat: no-repeat; background-size: cover;  z-index: -1; }
+	/* ---- stats.js 
+	.count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; } ---------------------------------------------------- */
+
+
+
+
+/*---------------------------------------------------------------header: logo,logotext-----------------------------------------------------------*/
+.first{
+	
+
+background-color: #1d2951;
+}
+
+header{display: flex; 
+justify-content: space-between;width: 100vw;
+height: 10vmax;
+}
+.logo{display: inline-block;
+    padding-right: 0px;
+	width: 11vw;
+	padding-top: 0.07vmax;
+	position: relative;
+	top: 0px;
+	left: 0;
+
+}
+.vikalplogotext{font-family: 'Bangers',cursive ;
+    display: inline-block; 
+    text-align: center;
+    padding-top: 3.6vmax;
+
+    font-size: 4.5vw; line-height: 9px;
+
+    }
+.vikalptextf{color: #39ff14; text-shadow: -3px -3px 1px #000000; padding-left: 1.9vw;}
+.vikalptextf:hover{color: #000000; text-shadow: -3px -3px 1.2px #39ff14; transition: all 0.3s ease 0s; cursor: default;
+    
+}
+
+
+
+/*--------------------------------------------------------navigation bar--------------------------------------------------------------------------*/
+
+.nav{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Bangers',cursive ;
+    display: inline-block; color: #dddddd;
+    text-align: right;
+    font-size: 1.9vw;
+    text-shadow: 1px 3px 30px rgb(31, 8, 56);
+	padding-bottom: 0px;
+	position: static;
+	white-space: nowrap;
+    
+  
+}
+a{text-decoration: none;}
+.nav:hover{color: #39ff14;
+transition: all 0.3s ease 0s ;}
+
+
+ul{list-style: none;
+display: inline-block;
+
+}
+
+li{padding-top: 2.5vmax;
+    padding-right: 2.7vw;
+    padding-bottom: 0px;
+display: inline-block; 
+
+}
+
+
+.logo{cursor: pointer;}
+
+/*------------------------------------------------------------social links------------------------------------------------------------------*/
+.followsocial { font-size: 1.2vmax;
+    font-family: 'Dosis', sans-serif;
+    text-align: right;
+    padding-top:0px;
+    padding-right: 20px;
+	padding-left: 0px;
+	;
+	color: rgb(0, 0, 0);
+	position: fixed;
+	top: 6.5vmax;
+	right: 0;
+	z-index: 20;
+    
+    }
+.followsocial:hover{transition: all 0.3s ease 0s ; text-shadow: 1px 0px 1px #39ff14;}
+.text{padding-right: 2vmax;}
+
+.socialicon{width: 2.8vmax; padding-right: 0.9vmax;
+ padding-left: 0px;display:inline-block;
+color: #169105;}
+ 
+ 
+
+/*-------------------------------------------------------typing search bar-----------------------------------------------------------------*/
+#hpfirstflex{
+	display: flex;
+	background: #1d2951;
+
+    
+	}
+
+#topbar{
+   font-size: 15vmax ;
+  
+   padding-top: 3vmax;
+   padding-left: 3.5vw;
+   
+  
+   font-size: 5.7vmax;
+   display:block;
+   text-align: center;
+   color: #cfcfcf;
+   text-shadow: 1px 3px 30px rgb(31, 8, 56);
+   font-family: 'Dosis', sans-serif;
+   word-spacing: 5px;
+    /*font-family: 'Share', cursive;
+    font-family: 'Kelly Slab', cursive;
+    
+    font-family: 'Strait', sans-serif;;*/}
+    
+
+    #contype {display: block;
+      padding-left: 0px;
+      text-align: center;
+      padding-top: 0px;
+      }
+      
+    
+    #typtext {
+        display: inline-block;
+        vertical-align: middle;
+        color: #39ff14;
+        font-size: larger ;
+		text-decoration: underline #ffffff ;
+		text-align: justify;
+        
+        padding-left: 3px;
+		
+		
+		padding-top: 0px;
+		
+        
+        font-size: 5.7vmax;
+        text-shadow: 1px 3px 50px rgb(31, 8, 56);
+        font-family: 'Dosis', sans-serif;
+        word-spacing: 5px;
+    }
+    
+    #cursor {
+        display: inline-block;
+        vertical-align: middle;
+        width: 0.2vmax;
+        height: 0.8vmax;
+        background-color: #000000;
+		animation: blink 1s step-end infinite;
+		
+        
+    }
+    
+    @keyframes blink {
+        from, to { 
+            background-color: transparent 
+        }
+        50% { 
+            background-color: #000000; 
+            padding-top: 5vmax;
+            padding-bottom: 1.9vmax;
+        }
+	}
+
+
+
+/* ---------------------------------------------second view space (about)--------------------------------------------------------------*/
+.insite-head{ 
+	
+font-size: 100px;
+
+padding-top: 5%;
+}
+
+.hpsecondflex{background-color: #1d2951;
+	padding-top: 10vmax;
+}
+
+
+
+
+
+.tabs{ font-family: 'Dosis', sans-serif;
+	text-align: center ;
+	font-size:  20vmax;
+	font-weight: 600;
+	display: block;
+}
+
+
+/* tabs*/
+.second{ background: #1d2951}
+.containertab{ 
+	font-family: 'Dosis',sans-serif;
+	line-height: 2vmax;
+	max-width: 1200px;
+	padding-top: 4vmax;
+	padding-bottom: 6vmax;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 6vmax;
+	margin: 0 auto;
+	
+
+}
+.containertab .card{
+	position: relative;
+	height: 20vmax;
+	width: 23vmax;
+	margin: 0 auto;
+	background: linear-gradient(45deg, #39ff14, #169105);
+	box-shadow: 0 15px 60px rgba(0,0,0,0.5);
+}
+
+.containertab .card .face{ 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containertab .card .face.face1{
+	box-sizing: border-box;
+	padding: 2.2vmax;
+}
+.containertab .card .face.face1 p{
+	margin: 0;
+	padding:0;
+	font-size: 1.5vmax;
+	line-height: 2.2vmax;
+
+
+}
+.containertab .card .face.face2
+{ background: #000;
+  transition: 0.5s;
+}
+.containertab .card:hover .face.face2{
+	height: 4vmax;
+}
+.containertab .card .face.face2 ::before
+{	
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+}
+
+.containertab .card .face.face2 h2{
+  margin: 0;
+  padding: 0;
+  font-size: 3vmax;
+  color:#fff;
+  word-spacing: 0.5vmax;
+
+}
+
+.containertab .card:hover .face.face2 h2{
+	font-size: 2.5vmax;
+}
+
+
+   /* ---------------------------------------------third view space--------------------------------------------------------------*/
+
+   .third{
+	
+	font-family: 'Dosis', sans-serif;
+		 
+	 font-size: 2em;
+	 line-height: 1.5;
+	 padding-top: 2vmax;
+	 
+   }
+
+
+
+.thirdflex-hp{
+	display: flex;
+	justify-content: center;
+
+	
+}
+.slides {
+position: relative;
+
+padding-bottom: 33vmax;
+
+
+
+
+}
+.slides .slide {
+position: absolute;
+top: 0;
+box-shadow: -7px 13px 10px rgba(0, 0, 0, 0.274);
+word-spacing: 6px;
+
+width: 26.3%;
+max-height: 3.8vmax;
+margin: 0.5em;
+
+border-radius: 23px;
+background: #39ff14;
+color: white;
+float: left;
+overflow: hidden;
+transition: max-height 0.25s ease-in-out, width 0.25s 0.25s ease-in-out, left 0.25s 0.5s ease-in-out, top 0.25s 0.75s ease-in-out;
+}
+.slides .slide:nth-child(1) {
+left: 0%;
+
+
+}
+.slides .slide:nth-child(2) {
+left: 33.3333%;
+
+}
+.slides .slide:nth-child(3) {
+left: 66.6666%;
+
+}
+.slides .slide > a {
+display: block;
+padding-bottom: 15px;
+font-family: 'Dosis', sans-serif;
+font-size: 2.1vw;
+padding-top: 0.6vmax;
+
+text-transform: uppercase;
+text-decoration: none;
+color: #000;
+text-align: center;
+text-shadow: 1px 1px 2.5px #169105;
+
+transition: color 2s;
+}
+.slides .slide.active {
+position: absolute;
+top: 6vmax;
+left: 0;
+width: 80vw;
+max-height: 800vmax;
+float: none;
+transition: top 0.25s 1s ease-in-out, left 0.25s 1.25s ease-in-out, width 0.25s 1.5s ease-in-out, max-height 0.25s 1.75s ease-in-out;
+}
+.slides .slide.active a {
+color: rgb(0, 0, 0);
+
+}
+
+*, *:before, *:after {
+box-sizing: border-box;
+
+}
+.third {
+ background: #1d2951
+}
+.third {
+font-size: 2vmax;
+}
+.dummy{font-size: 300px;
+color: #1d2951;}
+
+
+.container {
+width: 80%;
+max-width: 85vw;
+font-family: 'Dosis',sans-serif;
+padding-top: 7vmax;
+
+}
+
+/*-------------------------------------------------------leader board content--------------------------------------------------------------*/
+.contentlb{ margin: 0;
+	padding: 0;
+	font-family: 'Dosis',sans-serif;
+}
+.contentlb ul{
+	position: relative;
+	width: 70vw;
+	
+	margin: 0 5.5vw 2vmax;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.1);
+	box-shadow: inset 0 0 15px rgba(0,0,0,.23);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.contentlb ul li{
+	display: flex;
+	background: #159105c0;
+	padding: 10px 20px;
+	font-size: 2vmax;
+	color: #fff;
+	margin: 5px 0;
+	transition: 0.5s;
+	
+}
+
+
+.contentlb ul li span:nth-child(1){
+	width: 3vmax;
+	text-align: left;
+}
+.contentlb ul li span:nth-child(2){
+	width: 52vmax;
+	text-align: center;
+}
+.contentlb ul li span:nth-child(3){
+	width: 17vmax;
+	text-align: right;
+}
+
+.contentlb ul li:hover
+{
+	transform: scale(1.06);
+	background: #39ff14;
+}
+
+.namelb1{ color: #fff;
+text-decoration: none;}
+
+   /* ---------------------------------------------fourth view space--------------------------------------------------------------*/
+.hpfourthflex{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+   .fourth{
+	
+	font-family: 'Dosis', sans-serif;
+   
+	 font-size: 2em;
+	 line-height: 1.5;
+	 padding-top: 4vmax;
+	
+	
+	 
+ 
+	
+} 
+.insite-head{
+	font-size: 6.2vmax;
+
+	text-align: center;
+
+	color: #ffffffe5;
+	text-shadow: 5px 7px 2px #000000;
+font-family: 'Bangers',cursive ;
+letter-spacing: 4px;
+/*text-shadow: 2px 2px 7px rgba(41, 33, 110, 0.74), 0 0 #000;*/
+
+}
+ .insite-head:hover{
+	color: #000000;
+	text-shadow:  3px 2px 2px #ffffff;
+}
+
+@keyframes animate{
+	0% {background-position: -500%;}
+
+	100% {background-position: 500%;}
+}
+
+.slidesep {
+position: relative;
+
+
+
+}
+.slidesep .slideep {
+position: absolute;
+top: 0;
+box-shadow: -7px 13px 10px rgba(0, 0, 0, 0.274);
+word-spacing: 6px;
+
+width: 26.3%;
+max-height: 4.9vmax;
+margin: 0.5em;
+padding: 5px;
+border-radius: 23px;
+background: #39ff14;
+color: white;
+float: left;
+overflow: hidden;
+transition: max-height 0.25s ease-in-out, width 0.25s 0.25s ease-in-out, left 0.25s 0.5s ease-in-out, top 0.25s 0.75s ease-in-out;
+}
+.slidesep .slideep:nth-child(1) {
+left: 0%;
+
+
+}
+.slidesep .slideep:nth-child(2) {
+left: 33.3333%;
+
+}
+.slidesep .slideep:nth-child(3) {
+left: 66.6666%;
+
+}
+.slidesep .slideep > a {
+display: block;
+
+font-family: 'Dosis', sans-serif;
+font-size: 2.1vw;
+
+text-transform: uppercase;
+text-decoration: none;
+color: #000;
+text-align: center;
+text-shadow: 2px 1px 3px #169105;
+
+transition: color 2s;
+}
+.slidesep .slideep.active {
+position: absolute;
+top: 8.9em;
+left: 0;
+width: 80vw;
+max-height: 60vmax;
+
+float: none;
+transition: top 0.25s 1s ease-in-out, left 0.25s 1.25s ease-in-out, width 0.25s 1.5s ease-in-out, max-height 0.25s 1.75s ease-in-out;
+}
+.slidesep .slideep.active a {
+color: rgb(0, 0, 0);
+
+}
+
+*, *:before, *:after {
+box-sizing: border-box;
+
+}
+.fourth {
+ background: #1d2951
+}
+.fourth {
+font-size: 62.5%;
+}
+.dummy{font-size: 10vmax;
+color: #1d2951;}
+
+
+.containerep {
+width: 90%;
+max-width: 1200px;
+margin:0 48px;
+
+
+
+font-family: 'Dosis',sans-serif;
+padding-top: 50px;
+
+}
+/* ---------------------------------------------fourth view space expert content--------------------------------------------------------------*/
+
+
+                           /*---------------------------super mentor----------------------------*/
+   .superment{
+	   position: relative;
+	top: 2vmax;
+	left: 1vmax;
+	transform: translate(-10%, -10%);
+	padding-left: 16vw;
+	padding-top: 4vmax
+	
+	
+	
+	
+	;
+	   
+
+   }
+
+   .superment .profile-cardep{
+	   display: flex;
+	   flex-direction: row;
+	   width: 60vw;
+	   height: 20vmax;
+	   background: #000000;
+	   box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+	   border-radius: 3px;
+	   padding-left: 6vmax;
+	  
+	    
+   }
+   
+   .superment .profile-cardep .imageep{
+	   width: 20vw;
+	   text-align: center;
+	   padding-top: 2vmax;
+	   
+
+   }
+   .superment .profile-cardep .imageep img{
+	   width: 10vw;
+	   border-radius: 80%;
+	   border: 4px solid #fff;
+	   
+	   box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75) ;
+
+
+   }
+
+   .superment .profile-cardep .textep{
+	   width: 400vw;
+	   margin-left: 3vw;
+   }
+   .superment .profile-cardep .textep h1{
+	   font-size: 4.5vw;
+	   text-transform: uppercase;
+	   font-weight: normal;
+	   letter-spacing: 0.3vmax;
+   }
+   .superment .profile-cardep .textep h3{
+	   font-size: 2.5vw;
+	   font-style: italic;
+	   color: #39ff14;
+	   margin-top: 0.3vmax;
+	   
+
+   }
+   .superment .profile-cardep .textep p{
+	   margin-top: 0.2vmax;
+	   font-size: 1.7vw;
+	   letter-spacing: 0.1vmax;
+	   color: gray;
+	   padding-bottom: 10px;
+
+
+   }
+
+   .superment .card-bottomep {
+	   background: #1d2951;
+	   height: 4vmax;
+	   position: relative;
+	   box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+	   width: 52vw;
+	   margin-top: -2px;
+	   margin-left: 20px;
+	   z-index: -1;
+	   border-radius: 3px;
+	   transform: translate(1%, 0%);
+	   
+
+   }
+   .superment .card-bottomep ul{
+	   list-style: none;
+	   text-align: center;
+	   width: 100%;
+	   position: absolute;
+	   top: 10vmax;
+	   left: 3vmax;
+	  
+
+   }
+
+   .superment .card-bottomep ul li{
+	   display: inline;
+	   margin: 15px;
+
+	}
+	.superment .card-bottomep ul li i{
+		color: #6a6b6b;
+		font-size: 20px;
+		padding: 0 10px;
+		cursor: pointer;
+		transition: 0.5s ease;
+	}
+
+	.superment .card-bottomep ul li i:hover{
+		color: #39ff14;
+	}
+
+  
+
+/*----------------------------------------------------------mentor------------------------------------------------------------------*/
+						   .ment{
+							
+							display: flex;
+							justify-content: center;
+						 
+						 transform: translate(0%, -10%);
+						 padding-left: 3.8vmax;
+						 padding-top: 10vmax;}
+
+						.ment .profile-cardep{
+							display: flex;
+							flex-direction: row;
+							width: 30vw;
+							
+							height: 20vmax;
+							background: linear-gradient(-48deg, #000000, #2e2b27);
+							box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+							border-radius: 3px;
+							padding-left: 20px;
+						   
+							 
+						}
+						
+						.ment .profile-cardep .imageep{
+							width: 20vw;
+							text-align: center;
+							padding-top: 20px;
+							
+					 
+						}
+						.ment .profile-cardep .imageep img{
+							width: 8vw;
+							border-radius: 80%;
+							border: 4px solid #fff;
+							
+							box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75) ;
+					 
+					 
+						}
+					 
+						.ment .profile-cardep .textep{
+							width: 70vw;
+							margin-left: 20px;
+						}
+						.ment .profile-cardep .textep h1{
+							font-size: 2.8vw;
+							text-transform: uppercase;
+							font-weight: normal;
+							letter-spacing: 0.1vmax;
+							padding-top: 3px;
+						}
+						.ment .profile-cardep .textep h3{
+							font-size: 1.499vw;
+							font-style: italic;
+							color: #39ff14;
+							margin-top: 1vmax;
+							
+					 
+						}
+						.ment .profile-cardep .textep p{
+							margin-top: 10px;
+							font-size: 1.5vw;
+							padding-right: 0.02vmax;
+							letter-spacing: 0.1vmax;
+							color: gray;
+							padding-bottom: 3px;
+					 
+					 
+						}
+					 
+						.ment .card-bottomep {
+							background:#1d2951;
+							height: 20vmax;
+							position: relative;
+							box-shadow: 0px 12px 24px -9px rgba(0,0,0,0.75);
+							width: 40px;
+							margin-top: 0px;
+							margin-right: 20px;
+							z-index: -1;
+							border-radius: 3px;
+							transform: translate(0%, 0%);
+							
+					 
+						}
+						.ment .card-bottomep ul{
+							list-style: none;
+							text-align: center;
+							width: 100%;
+							position: absolute;
+							top: 16%;
+							left: -30%;
+						   
+					 
+						}
+					 
+						.ment .card-bottomep ul li{
+							display: inline;
+							margin: 15px;
+							
+					 
+						 }
+						 .ment .card-bottomep ul li i{
+							 color: #6a6b6b;
+							 font-size: 20px;
+							 padding: 0px 10px;
+							 padding-bottom: 50px;
+							 cursor: pointer;
+							 transition: 0.5s ease;
+							 
+						 }
+					 
+					 .ment .card-bottomep ul li i:hover{
+							 color: #39ff14;
+						 }
+
+	/* ------------------------------------------------------ footer ------------------------------------------------------------- */ 
+
+footer{ 
+	background: linear-gradient(180deg, #1d2951,#1d2951,#1d2951,#222a47);
+
+
+	text-align: justify;}
+
+footer hr {
+	padding-left: 40px;
+}
+	
+footer i{ 
+
+	font-size: 35px;
+	color: limegreen;
+}
+	
+
+footer nav{
+	display:block;
+	
+    padding-top: 10vh;
+	padding-left: 30vw;
+	padding-bottom: 15vh;
+}
+
+

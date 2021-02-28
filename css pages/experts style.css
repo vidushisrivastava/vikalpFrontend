@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1d2951;
+    
+}
+body {
+  
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  .firstflex{
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5vmax;
+    padding-right: 1.5vmax;
+  }
+  .swiper-container { overflow: hidden;
+    width: 100%;
+    padding-top: 3vmax;
+    padding-bottom: 12vmax;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 17vmax;
+    height: 30vmax;
+    background-color: #fff;
+    box-shadow: 0px 5px 9px #101731;
+  }
+
+  /*--------------------------------------super mentor image and content----------------------------------------------*/
+  .swiper-slide .swiper-slidesm{
+     padding-bottom: 24vmax;
+    background-position: center;
+    background-size: cover;
+    width: 20vmax;
+    height: 32.5vmax;
+    background: linear-gradient(280deg, black,black, rgb(39, 39, 3));
+    box-shadow: 0px 5px 9px #101731;
+  }
+ 
+  .swiper-slide .swiper-slidesm .expimg{
+    width: 100%;
+    height: 16vmax;
+    overflow: hidden;
+
+  }
+  .swiper-slide .swiper-slidesm .expimg img{
+      width: 100%;
+     
+
+  }
+  .swiper-slide .swiper-slidesm .content{
+      box-sizing: border-box;
+      text-align: center;
+      padding: 1vmax;
+  }
+  .swiper-slide .swiper-slidesm .content h3{
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      font-size: 1.5vmax;
+      line-height: 3vmax;
+      text-align: center;
+      color: #fff;
+
+  }
+  .swiper-slide .swiper-slidesm .content span{
+      font-size: 1.2vmax;
+     
+      color: #2fca13;
+      font-weight: 400;
+  }
+
+/*--------------------------------------mentor image and content----------------------------------------------*/
+
+.swiper-slide .expimg{
+    width: 100%;
+    height: 14.5vmax;
+    overflow: hidden;
+    
+
+  }
+  .swiper-slide .expimg img{
+      width: 100%;
+     
+
+  }
+  .swiper-slide .content{
+      box-sizing: border-box;
+      text-align: center;
+      padding: 3vmax;
+  }
+  .swiper-slide .content h3{
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      font-size: 1.3vmax;
+      text-align: center;
+      line-height: 2.4vmax;
+      overflow: hidden;
+
+  }
+  .swiper-slide .content span{
+      font-size: 1vmax;
+      line-height: 1.4vmax;
+      height: 100%;
+      color: #2fca13;
+      font-weight: 400;
+      overflow: hidden;
+      width: 16vmax;
+      
+  }
+
+/*--------------------------------------------------------------watch video or fill form-------------------------------------------------------*/
+
+.content a{
+  text-decoration: none;
+  color: #dddddd;
+  padding-top: 100px;
+  font-size: 1.3vmax;
+  font-family: 'Bangers',cursive ;
+}
+
+.video-form-link{
+  padding-top: 3vmax;
+
+}
+/*--------------------------------------------------------------leaderboard page------------------------------------------------------------------*/
+
+
+  
+  
+/*-------------------------------------------------------leader board content--------------------------------------------------------------*/
+h1{
+  font-size: 7vmax;
+  text-transform: capitalize;
+  padding-bottom: 3vmax;
+  color:rgba(255, 255, 255, 0.904);
+  padding-left: 2vmax;
+  font-family: 'Dosis',sans-serif;
+  text-shadow: 0px 0px 15px black;
+}
+
+h2{
+  font-size: 4vmax;
+  text-transform: capitalize;
+  padding-bottom: 3vmax;
+  color:rgba(255, 255, 255, 0.904);
+  padding-left: 2vmax;
+  font-family: 'Dosis',sans-serif;
+}
+
+.conlink a{
+  font-size: 1.7vmax;
+  font-family: 'Dosis',sans-serif;
+  display: block;
+  text-align: center;
+  padding-bottom: 10vmax;
+
+}
+.codinglb{
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+  display: flex;
+ 
+  justify-content: center;
+  padding:1vmax 40vw;
+  background: transparent;
+  color: #2fca13;
+  font-family: 'Dosis',sans-serif;
+  font-size: 1.5vmax;
+  border-color: #000;
+}
+.codinglb .codinglb{
+  box-shadow: 0px 0px 9px #000;
+  text-decoration: none;
+  outline: none;
+  -webkit-appearance: button;
+}
+.codinglb option{
+  background: #39ff14;
+  color: #000;
+}
+
+.codinglb option:hover{
+  color: #2fca13;
+}
+ .contentlb{ margin: 0;
+  padding-top: 2vmax;
+
+  display: flex;
+  justify-content: center;
+padding-bottom: 10vh;
+	font-family: 'Dosis',sans-serif;
+}
+.contentlb ul{
+	position: relative;
+	width: 700px;
+	margin: 0 18% 0;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.1);
+	box-shadow: inset 0 0 15px rgba(0,0,0,.23);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.contentlb ul li{
+	display: flex;
+	background: #50dd37f3;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #fff;
+	margin: 5px 0;
+	transition: 0.5s;
+	
+}
+
+
+.contentlb ul li span:nth-child(1){
+	width: 30px;
+	text-align: left;
+}
+.contentlb ul li span:nth-child(2){
+	width: 500px;
+	text-align: center;
+}
+.contentlb ul li span:nth-child(3){
+	width: 170px;
+	text-align: right;
+}
+
+.contentlb ul li:hover
+{
+	transform: scale(1.06);
+	background: #1d2951ab;
+}
+
+.namelb1{ color: #fff;
+text-decoration: none;}

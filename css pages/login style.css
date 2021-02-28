@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:700|Kelly+Slab|Strait|Turret+Road:700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+ 
+   
+  }
+  .box{
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000000;
+    text-align: center;
+    border-radius: 7px;
+ 
+  }
+
+  #particles-js{  width: 100vw; height: 100%; background-color: #1d2951; background-image: url(""); background-repeat: no-repeat; background-size: cover; position: absolute; top: 0; left: 0;}
+	/* ---- stats.js ---- */ 
+  .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 30px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+  
+
+
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+     font-size: 30px;
+     letter-spacing: 2.7px;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #dce6f0;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #39ff14;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #39ff14;
+    color: rgb(32, 32, 32);
+  }
+
+  form p{
+    color: white;
+    padding-top: 0.5vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 2.7px;
+    word-spacing: 0.5vmax;
+     font-family: 'Dosis', sans-serif;
+     text-transform: uppercase;
+     text-align: center;
+  }
+
+  .login_icons{
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    font-size: 2vmax;
+    padding-right: 2.5vmax;
+  }
+
+  .login_icons :hover{
+   text-shadow: 0px 0px 20px #39ff14;
+  }
